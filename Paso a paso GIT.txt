@@ -1,0 +1,6 @@
+Git init --- inicializar la carpeta como proyecto de GIT
+git add  --- adicionar todos los archivos que se quieran subir al repositoriio
+git add . --- Añadir todo lo que se modifique al repositorio
+git add (nombre_archivo) --- solo agrega el archivo que se quiera subir
+git commit -m "comentario a lo que voy a subir"-- agregar comentario a o que se esta subiendo
+git push -- Sube los cambios al repositorio
