@@ -44,3 +44,7 @@ print(my_dict.values())
 
 my_new_dict = my_other_dict.fromkeys(('nombre',1))
 print(my_new_dict)
+my_new_dict = dict.fromkeys(my_dict)
+print(my_new_dict)
+my_new_dict = dict.fromkeys(my_dict,('Julian','Niño'))
+print(my_new_dict)
