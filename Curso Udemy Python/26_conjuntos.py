@@ -9,3 +9,6 @@ print(len(conjunto_colores))
 
 conjunto_colores.add ('Amarillo')
 print(conjunto_colores)
+
+conjunto_colores.remove('Amarillo')
+print(conjunto_colores)
