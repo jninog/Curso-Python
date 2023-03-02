@@ -5,5 +5,4 @@ for color in tupla_colores:
     print(color)
     
 print(tupla_colores[1])
-
 print(len(tupla_colores))
