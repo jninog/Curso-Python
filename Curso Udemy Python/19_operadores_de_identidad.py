@@ -9,3 +9,6 @@ print(frutas3 is frutas1)
 frutas3.append('Naranjas')
 print(frutas3 is frutas1)
 print(frutas1)
+
+
+print(frutas3 is not frutas1)
