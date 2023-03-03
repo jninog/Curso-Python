@@ -1,4 +1,4 @@
-a = 8
+a = 10
 b = 10
 c = 2
 d = 6
@@ -12,3 +12,11 @@ else:
 
 if (a<b) and (c<d):
     print('La primera expresion es correcta')
+    
+    
+if (a>b):
+    print('a es maypr que b')
+elif(a == b):
+    print('a es igual a b')
+else:
+    print('Ninguna expresión es correcta')
