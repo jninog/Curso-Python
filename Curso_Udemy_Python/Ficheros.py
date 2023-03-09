@@ -6,7 +6,7 @@
 #‘b’: Para abrir en modo binario.
 
 
-fichero = open('ficherotexto.txt','rt')
+fichero = open('ficherotexto.txt','r')
 
 datos_fichero = fichero.read()
 
