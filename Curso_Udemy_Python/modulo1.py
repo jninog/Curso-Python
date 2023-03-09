@@ -1,11 +1,7 @@
 #from Curso_Udemy_Python.ejercicio_Objetos_Clases import coche
 #from Curso_Udemy_Python.ejecicio_Lambda import media
 class coche:
-    marca = ''
-    color = ''
-    combustible = ''
-    cilindrada = ''
-    
+      
     def __init__(self,marca,color,combustible, cilindrada):
         self.marca = marca
         self.color = color
