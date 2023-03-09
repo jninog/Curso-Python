@@ -1,0 +1,5 @@
+#from Curso_Udemy_Python.ejercicio_Objetos_Clases import coche
+#from Curso_Udemy_Python.ejecicio_Lambda import media
+import ejercicio_Objetos_Clases
+import ejecicio_Lambda
+
