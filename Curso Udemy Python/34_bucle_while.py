@@ -10,8 +10,8 @@ fin = 10
 while (valor < fin):
     print(valor)
     valor = valor+1
-    #if (valor == 5):
-     #   break
+    if (valor == 5):
+        break
 
 # continue
 #while (valor < fin):

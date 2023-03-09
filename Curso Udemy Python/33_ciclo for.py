@@ -3,8 +3,6 @@ colores = ['Azul','Verde','Amarillo']
 for color in colores:
   print(color)
   
-print(colores[0])
-
 #cadena = 'Hola Mundo'
 #for caracter in cadena:
  #   print(caracter)
