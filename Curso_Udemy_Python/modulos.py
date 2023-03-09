@@ -3,4 +3,5 @@
 def saludar(nombre):
     print('Hola soy '+ nombre)
     
-print(saludar)
+def despedirse(nombre1):
+    print('Adios '+ nombre1)
