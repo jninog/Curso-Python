@@ -10,7 +10,7 @@ class coche:
         self.combustible = combustible
         self.cilindrada = cilindrada
     def mostrar_caracteristicas(self):    #instancio la clase completa para poder acceder a los atributos
-        print('El carro tiene estas caracteristicas marca {},color {},Combustible {},cilindrada{}'
+        print('El carro tiene estas caracteristicas marca {},color {},Combustible {},cilindrada {}'
               .format(self.marca,self.color,self.combustible,self.cilindrada))
 
 
