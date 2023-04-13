@@ -1,4 +1,4 @@
-
+# pickle 
 import pickle
 
 fichero = open("fichero_colores.pckl","rb")
