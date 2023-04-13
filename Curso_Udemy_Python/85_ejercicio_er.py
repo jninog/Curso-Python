@@ -6,7 +6,7 @@ def buscar(palabra,texto):
     return(resultado)
 
 texto = 'Esta es una frase de prueba para hacer busqueda'
-palabra = 'frase'
+palabra = 'de'
 
 resultado  = buscar(palabra,texto)
 print(resultado)
