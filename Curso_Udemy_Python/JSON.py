@@ -13,4 +13,10 @@ estructurajson = json.dumps(producto1)
 #print(estructurajson ['nombre'])
 print(estructurajson [0])
 
+#convertir un JSON en diccionario
+
+producto2 = json.loads(estructurajson)
+print(producto2)
+
+print(producto2['nombre'])
 
