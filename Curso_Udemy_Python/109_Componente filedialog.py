@@ -3,7 +3,6 @@
 import tkinter
 from tkinter import filedialog
 
-
 raiz = tkinter.Tk()
 raiz.title("Mi programa")
 
