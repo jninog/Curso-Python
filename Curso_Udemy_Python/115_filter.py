@@ -1,7 +1,7 @@
 #funcion filter filtra resultados segun condición
 
 def positivo(numero):
-    if (numero <0):
+    if (numero >0):
         return True
     else:
         return False
@@ -14,3 +14,4 @@ filtro = filter(positivo,numeros)
 resultado  = list(filtro)
 
 print(resultado)
+

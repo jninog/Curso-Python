@@ -17,9 +17,9 @@ def primos(maximo):
     for numero in range(maximo):
         if (numero in numeros_primos):
             yield numero
-        if(numero>30):
+        if(numero > 100):
             break
 
-maximo = 150
+maximo = 50
 for nuemero in primos(maximo):
     print(nuemero)
