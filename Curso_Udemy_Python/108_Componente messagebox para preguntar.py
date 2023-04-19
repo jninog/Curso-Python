@@ -13,7 +13,7 @@ def preguntar():
     if(resultado =="yes"):
         print("Si, quiero borrar fichero")
     else:
-        print("No quiero borrar el fichero")
+        print("No, no quiero borrar el fichero")
     
 boton = tkinter.Button(raiz,text="Pulsar para preguntar",command=preguntar)
 boton.pack()

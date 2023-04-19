@@ -8,7 +8,7 @@ raiz.title("Mi programa")
 # Componente checkbutton
 
 def verificar():
-    valor = check1.get()
+    valor = check1.get()  #se captura el valor de la variable
     if (valor == 1):
         print("El check esta activo")
     else:
