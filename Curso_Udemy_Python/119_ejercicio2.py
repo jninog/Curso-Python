@@ -6,7 +6,7 @@ def pares(numero):
     if (numero %2 ==0):
         return True
     else:
-        return False 
+        return False
 
 #resultado = pares(2)
 #print(resultado)

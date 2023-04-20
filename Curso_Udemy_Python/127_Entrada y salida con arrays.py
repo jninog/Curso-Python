@@ -22,4 +22,4 @@ print(array_recuperado['y'])
 #guardar en un fichero de texto
 
 np.savetxt('Mificherodetexto.txt',array2,delimiter=',')
-print(np.loadtxt('Mificherodetexto.txt',delimiter=','))
+print(np.loadtxt('Mificherodetexto.txt',delimiter=',')) 

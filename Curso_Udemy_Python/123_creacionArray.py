@@ -29,5 +29,6 @@ print(lista_doble)
 array_doble = np.array(lista_doble)
 print(array_doble)
 
-resul=array_doble.shape
+resul=array_doble.shape # nos dice cuantas filas y columnas tiene nuestro array
 print(resul)
+
