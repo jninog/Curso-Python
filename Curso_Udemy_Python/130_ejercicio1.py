@@ -1,7 +1,5 @@
 import numpy as np
 
-lista=[1,30]
-
 def pares(inicio,fin):
     for numero in range(inicio,fin):
         if (numero % 2 == 0):

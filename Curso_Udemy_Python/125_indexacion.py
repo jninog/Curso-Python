@@ -5,7 +5,7 @@ import numpy as np
 array = np.arange(0,11)
 print (array)
 
-array2 =array[2:5]
+array2 =array[2:5]#muestra un rango de valores en un array
 print(array2)
 
 
