@@ -21,5 +21,5 @@ print(datafrane)
 print(datafrane.drop('b')) #Elimina fila
 print(datafrane.drop('columna1',axis=1)) #Elimina columna 
 
-datafrane = datafrane.drop('b')
+datafrane = datafrane.drop('b') #Así se hacen permanentes los cambios
 print(datafrane)
