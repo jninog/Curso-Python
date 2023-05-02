@@ -27,5 +27,7 @@ print(dataframe >20)
 #selectcionar por indice
 
 print(dataframe.loc['i3']) # seleciona por indice
-print(dataframe.loc[['i3','i2']]) # seleciona por indice
+print(dataframe.loc[['i3','i2']]) # seleciona por indice, teneidno en cuenta rango
+
+
 

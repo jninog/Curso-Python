@@ -17,4 +17,4 @@ print(dataframe.min(axis=1)) # minimo valor por fila
 print(dataframe.max(axis=1)) #maximo valor por fila
 print(dataframe)
 print(dataframe.idxmin())
-print(dataframe.describe())
+print(dataframe.describe()) #saca una serie de valores descriptivos
