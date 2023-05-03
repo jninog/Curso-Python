@@ -18,8 +18,9 @@ lista_valores2 = np.arange(16).reshape(4,4)
 lista_indices2 = list('1234')
 lista_columnas = list('abcd')
 
+#crear un lista con varios indices teniendo en cuenta un dataframe
 dataframe2 = pd.DataFrame(lista_valores2,index=lista_indices2,columns=lista_columnas)
 print(dataframe2)
 
-serie2 = dataframe2.stack()
+serie2 = dataframe2.stack() #
 print(serie2)
