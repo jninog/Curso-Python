@@ -28,5 +28,8 @@ print(dataframe2)
 dataframe_concat = pd.concat([dataframe,dataframe2])#concatena dataframe
 print(dataframe_concat)
 
-dataframe_concat = pd.concat([dataframe,dataframe2],keys=['d1','d2'])
+dataframe_concat4 = pd.concat([dataframe,dataframe2],keys=['d1','d2']) #Concatena dataframes, pero identificando cada una mediante la función (keys)
 print(dataframe_concat)
+
+dataframe_concat4 = pd.concat([dataframe,dataframe2],ignore_index=True) #Concatena dataframes, ignorando el indice y dejandolos continuos
+print(dataframe_concat4)
