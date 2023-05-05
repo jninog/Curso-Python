@@ -14,8 +14,11 @@ print(dataframe3)
 dataframe3 = pd.DataFrame.merge(dataframe1,dataframe2,on='clave') #se especifica por que campo hacer la union
 print(dataframe3)
 
-dataframe4 = pd.DataFrame.merge(dataframe1,dataframe2,on='clave',how='left') # muestra la información del dataframe de la izq, en este caso datframa1 y lo que cruza
+dataframe4 = pd.DataFrame.merge(dataframe1,dataframe2,on='clave',how='left') # muestra la información del dataframe de la izq, en este caso datframe1 y lo que cruza
 print(dataframe4)
 
-dataframe5 = pd.DataFrame.merge(dataframe1,dataframe2,on='clave',how='right') # muestra la información del dataframe de la izq, en este caso datframa1 y lo que cruza
+dataframe5 = pd.DataFrame.merge(dataframe1,dataframe2,on='clave',how='right') # muestra la información del dataframe de la derecha, en este caso datframe2 y lo que cruza
 print(dataframe5)
+
+dataframe6 = pd.DataFrame.merge(dataframe1,dataframe2,on='clave',how='outer') # muestra la información de los dataframe completas de ambos
+print(dataframe6)
