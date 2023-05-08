@@ -14,5 +14,5 @@ print(array2)
 dataframe1= pd.DataFrame(array1)
 dataframe2= pd.DataFrame(array2)
 
-dataframe_concat = pd.concat([dataframe1,dataframe2],ignore_index=True)
+dataframe_concat = pd.concat([dataframe1,dataframe2],ignore_index=True) #concateno y otdeno los indices
 print(dataframe_concat)

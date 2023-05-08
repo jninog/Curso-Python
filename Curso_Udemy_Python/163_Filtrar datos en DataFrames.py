@@ -14,4 +14,4 @@ columna0=dataframe[0] #filtra por la primer columna
 print(columna0[columna0 > 0.40])
 
 print(dataframe)
-print(dataframe[dataframe >0.40])
+print(dataframe[dataframe >0.40]) #muestra lo que cumple y lo que no NaN

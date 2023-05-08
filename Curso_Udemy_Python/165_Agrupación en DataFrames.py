@@ -11,7 +11,5 @@ lista_valores = {'clave1':['x','x','y','y','z'],'clave2':['a','b','a','b','a'],
 dataframe = pd.DataFrame(lista_valores)
 print(dataframe)
 
-#agrupar valores en función de lo que se requiera, aqui se va agrupar datos1, en función de clave1
-
-grupo1 = dataframe['datos1'].groupby(dataframe['clave1'])
-print(grupo1.mean()) #esto muestra la media
+grupo1 = dataframe['datos1'].groupby(dataframe['clave1']) #agrupar valores en función de lo que se requiera, aqui se va agrupar datos1, en función de clave1
+print(grupo1.mean()) #el mean muestra la media delos valores agrupados anteriormente 
