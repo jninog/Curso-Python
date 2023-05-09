@@ -5,6 +5,8 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as mlp
 
+#documentacion de seaborn.heatmap (https://seaborn.pydata.org/generated/seaborn.heatmap.html)
+
 
 vuelos = sns.load_dataset('flights')#traer el dataset, de vuelos
 #print(vuelos.head())

@@ -29,8 +29,9 @@ print(propinas.head())
 sns.lmplot(x='size',y='porcentaje',data=propinas) # se crea una grafica de regresion teniendo en cuenta el nuevo porcentaje
 mpl.show()
 
-sns.lmplot(x='total_bill',y='porcentaje',data=propinas,hue='sex',markers=['x','o'])
+sns.lmplot(x='total_bill',y='porcentaje',data=propinas,hue='sex',markers=['x','o']) # markers es para decirle qye le pnga a cada marcador en la grafica
 mpl.show()
 
 sns.lmplot(x='total_bill',y='porcentaje',data=propinas,hue='day')
 mpl.show()
+
