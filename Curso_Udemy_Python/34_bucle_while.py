@@ -12,10 +12,9 @@ while (valor < fin):
     valor = valor+1
     if (valor == 5):
         break
-
-# continue
-#while (valor < fin):
- #   valor = valor+1
-  #  if (valor == 6):
-   #     continue
-    #print(valor)
+#continue
+while (valor < fin):
+    valor = valor+1
+    if (valor == 6):
+        continue
+    print(valor)

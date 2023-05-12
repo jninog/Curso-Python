@@ -7,6 +7,13 @@ from zipfile import ZipFile
 
 basedatos = 'coches.bd'
 
+def promedio_marca(conexion):
+    cursor = conexion.cursor()
+    cursor.execute('select DISTINCT	marca,avg(precio) as precio_promedio from coches GROUP by marca order by precio desc')
+    datos = cursor.fetchall()
+    return datos
+
+
 def coche_economico(conexion):
     cursor = conexion.cursor()
     cursor.execute('select 	marca,modelo,min(precio) as precio from coches')
@@ -111,3 +118,13 @@ modelo = dato[1]
 precio = dato[2]
 dinero = '{:,.2f}'.format(precio).replace(',','.') #remplaza el tipo de dato y lo divide con puntos para saber que es dinero
 print('\n El coche mas economico es, Marca {}, Modelo {}, Precio ${}'.format(marca,modelo,dinero))
+
+print("\n precio medio por marca\n")
+datos = promedio_marca(conexion)
+for dato in datos:
+    marca=dato[0]
+    precio_promedio=dato[1]
+    dinero = '{:,.2f}'.format(precio_promedio).replace(',','.') #remplaza el tipo de dato y lo divide con puntos para saber que es dinero
+    print(marca,'$'+precio_promedio)
+
+#print('\n El valor de los coches promedio por marca es: Marca {}, Precio ${}'.format(marca,dinero))
